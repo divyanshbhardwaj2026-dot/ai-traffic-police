@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Datasets (Too large for GitHub)
+Vehicles-v1/
+Vehicles-coco/
+*.zip
+
+# YOLOv8 Weights (Auto-downloads when code runs)
+yolov8n.pt
+runs/
+
+# Output folder (Generated files)
+output/
+sample_traffic.mp4
+
+# IDE / System
+.vscode/
+.DS_Store
